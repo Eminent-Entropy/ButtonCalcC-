@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ButtonCalc.exe" version="1.0.0.0" publicKeyToken="d63b17b415f8062b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ButtonCalc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ButtonCalc.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ButtonCalc.exe" size="14280">
+      <assemblyIdentity name="ButtonCalc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ixn8i77Rpyk0saaKFMcrU9Lr8NaCvAv1jfUUy2c21kM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ButtonCalc.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Aiden-PC\gerbster" issuerKeyHash="b67b43bcafe4e3b896a7986af46e238bf0677c22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4F3WN1U/Zeyc0lhB3BYZpkbAD5eslvFKxigs75Lb8Tg=</DigestValue></Reference></SignedInfo><SignatureValue>pnnM/RcKAP6QSH2ZhUvRsc/vLdIsbehpFnUkWBh7p5VAExjZDVzhd0NzTUC4QSHrN6XmqHTCIqjEPvT+Zex7BM4EPCY5FWPbcekO3bXWHrbEDkXtHmhm+9AKZowlDqLviYEWcal0QsOFtE8yFX2HsxTeB9DRLgbmapFuXF+VZNs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tuZwIW/+bpCM8Ef7hL+mrAMp3lDZLvJUmLa8l8wZh97t7dMJxRMe9hbzXPTvLuLuft5oBg1jNgSAKNPEBmit3TLEc9liz0W1qC+guPmDEW51pi5SnGtiWGU3DsTRTiFj7W+1KuEUpDgMeKwYllzST+Tk4P870z59envRq+hvGrs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="38f1db92ef2c28c64af196ac970fc046a61916dc4158d29cec653f5537d65de0" Description="" Url=""><as:assemblyIdentity name="ButtonCalc.exe" version="1.0.0.0" publicKeyToken="d63b17b415f8062b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Aiden-PC\gerbster</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>s36m2AXvbrPXGQb+atVRX6Z2ru50IFskKUv76Kpb/QM=</DigestValue></Reference></SignedInfo><SignatureValue>QOIKz4k7QxNrSghloIWWtZLemFQHIOrFNEIIA2L+qL9ESoVjYkKYyQ3TcfZD1nSGlHOT9c/CcZ5WmRqhuEDGV62sqWl27FmHusyX12c5wbNg3M0N+hsUIX0GwOwGqeb7yRr6Df8277JrcGHHXGXRwpm8DxD+kOKm+4h81t64WoU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tuZwIW/+bpCM8Ef7hL+mrAMp3lDZLvJUmLa8l8wZh97t7dMJxRMe9hbzXPTvLuLuft5oBg1jNgSAKNPEBmit3TLEc9liz0W1qC+guPmDEW51pi5SnGtiWGU3DsTRTiFj7W+1KuEUpDgMeKwYllzST+Tk4P870z59envRq+hvGrs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQHKxufBAhfqVJpV5tNDks6zANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBpAGQAZQBuAC0AUABDAFwAZwBlAHIAYgBzAHQAZQByMB4XDTE2MTAzMTIyMjkyNVoXDTE3MTEwMTA0MjkyNVowLTErMCkGA1UEAx4iAEEAaQBkAGUAbgAtAFAAQwBcAGcAZQByAGIAcwB0AGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtuZwIW/+bpCM8Ef7hL+mrAMp3lDZLvJUmLa8l8wZh97t7dMJxRMe9hbzXPTvLuLuft5oBg1jNgSAKNPEBmit3TLEc9liz0W1qC+guPmDEW51pi5SnGtiWGU3DsTRTiFj7W+1KuEUpDgMeKwYllzST+Tk4P870z59envRq+hvGrsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCVIIqIx6OBNBbX2D80hBJyCBfAYEnoL4BdyDFgc38sfbVhl02CXRIvrpSKsZ0/+IMDn8Xzh2ajdEAQ9EYzGs0XtkzszcIE4TY4Cl2t5F0LNOf4lHJ4XHNIqtq926M5iVW6TocCOPullWuHtSbCbWIuSEtBq2orSp8fsX3gaig8JA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
