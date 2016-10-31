@@ -1,0 +1,13 @@
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\bin\Debug\ButtonCalc.exe.config
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\bin\Debug\ButtonCalc.exe
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\bin\Debug\ButtonCalc.pdb
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.csprojResolveAssemblyReference.cache
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.Form1.resources
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.Properties.Resources.resources
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.csproj.GenerateResource.Cache
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.exe
+c:\users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.pdb
+C:\Users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\bin\Debug\ButtonCalc.exe.manifest
+C:\Users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\bin\Debug\ButtonCalc.application
+C:\Users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.exe.manifest
+C:\Users\gerbster\documents\visual studio 2015\Projects\ButtonCalc\ButtonCalc\obj\Debug\ButtonCalc.application
